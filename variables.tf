@@ -29,3 +29,5 @@ variable "linux_password" {}
 variable "node_name" {}
 
 variable "redhat_ami" {}
+
+variable "repo_name" {}
