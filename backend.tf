@@ -1,7 +1,7 @@
-variable "repo_name" {}
+# variable "repo_name" {}
 
 terraform {
   backend "atlas" {
-    name = "obicarl/${var.repo_name}"
+    name = "obicarl/obicarl"
   }
 }
