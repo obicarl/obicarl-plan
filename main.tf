@@ -13,13 +13,9 @@ variable "domain_name" {}
 # Linux Username to leverage when connecting
 variable "linux_username" {}
 
-variable "disk_sizes" {
-  type        = "list"
-}
+variable "disk_sizes" {}
 
-variable "lin_mount_points" {
-  type        = "list"
-}
+variable "lin_mount_points" {}
 
 variable "type" {}
 
