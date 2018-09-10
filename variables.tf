@@ -12,9 +12,13 @@ variable "domain_name" {}
 
 variable "linux_username" {}
 
-variable "disk_sizes" {}
+variable "disk_sizes" {
+    type = "list"
+}
 
-variable "lin_mount_points" {}
+variable "lin_mount_points" {
+    type = "list"
+}
 
 variable "type" {}
 
