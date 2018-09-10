@@ -2,6 +2,6 @@
 
 terraform {
   backend "atlas" {
-    name = "obicarl/obicarl"
+    name = "obicarl/obicarl-plan"
   }
 }
