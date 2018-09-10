@@ -25,9 +25,9 @@ variable "node_name" {}
 
 variable "redhat_ami" {}
 
-module "now" {
-  source  = "app.terraform.io/obicarl/now/testing"
-  version = "0.0.2"
+module "module" {
+  source  = "app.terraform.io/obicarl/module/lab"
+  version = "0.0.1"
 }
 
 # resource "null_resource" "n" {}
