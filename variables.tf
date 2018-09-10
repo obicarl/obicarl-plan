@@ -13,11 +13,13 @@ variable "domain_name" {}
 variable "linux_username" {}
 
 variable "disk_sizes" {
-    type = "list"
+  type        = "list"
+  description = "sizes of disk in array"
 }
 
 variable "lin_mount_points" {
-    type = "list"
+  type        = "list"
+  description = "mount points"
 }
 
 variable "type" {}
