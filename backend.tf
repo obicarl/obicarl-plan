@@ -1,4 +1,4 @@
-### variable "repo_name" {}
+# variable "repo_name" {}
 
 terraform {
   backend "atlas" {
