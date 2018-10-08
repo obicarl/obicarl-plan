@@ -20,6 +20,7 @@ variable "disk_sizes" {
 variable "lin_mount_points" {
   type        = "list"
   description = "mount points"
+  default = 20
 }
 
 variable "type" {}
