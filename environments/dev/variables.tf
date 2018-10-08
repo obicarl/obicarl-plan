@@ -15,12 +15,12 @@ variable "linux_username" {}
 variable "disk_sizes" {
   type        = "list"
   description = "sizes of disk in array"
+  default = [20, 25]
 }
 
 variable "lin_mount_points" {
   type        = "list"
   description = "mount points"
-  default = 20
 }
 
 variable "type" {}
