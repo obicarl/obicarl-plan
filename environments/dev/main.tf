@@ -18,7 +18,7 @@ module "module" {
 }
 
 resource "null_resource" "n" {}
-# resource "null_resource" "n" {}
+resource "null_resource" "a" {}
 
 #resource "null_resource" "a" {}
 
