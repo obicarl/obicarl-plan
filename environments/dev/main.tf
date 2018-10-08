@@ -17,6 +17,7 @@ module "module" {
   version = "0.0.1"
 }
 
+resource "null_resource" "n" {}
 # resource "null_resource" "n" {}
 
 #resource "null_resource" "a" {}
